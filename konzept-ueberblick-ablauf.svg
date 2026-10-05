@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 585" role="img" aria-label="Ablauf in vier Phasen: Planen, Umsetzen, Prüfen, Abschluss. Violette Pfeile zeigen Wiederholungen, bis das Ergebnis stimmt." font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <marker id="gF" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10z" fill="#1B1A23"/></marker>
+    <marker id="gV" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10z" fill="#5B46E0"/></marker>
+  </defs>
+
+  <!-- Phasen-Bänder + Streifen -->
+  <rect x="0" y="52" width="1000" height="120" fill="#2563EB" fill-opacity=".08"/>
+  <rect x="0" y="172" width="1000" height="140" fill="#0D9488" fill-opacity=".08"/>
+  <rect x="0" y="312" width="1000" height="140" fill="#B45309" fill-opacity=".08"/>
+  <rect x="0" y="452" width="1000" height="120" fill="#BE185D" fill-opacity=".08"/>
+  <rect x="0" y="52" width="34" height="120" fill="#2563EB" fill-opacity=".08"/>
+  <rect x="0" y="172" width="34" height="140" fill="#0D9488" fill-opacity=".08"/>
+  <rect x="0" y="312" width="34" height="140" fill="#B45309" fill-opacity=".08"/>
+  <rect x="0" y="452" width="34" height="120" fill="#BE185D" fill-opacity=".08"/>
+  <g font-size="15" font-weight="700" letter-spacing="1.5" text-anchor="middle">
+    <text transform="translate(22 112) rotate(-90)" fill="#2563EB">PLANEN</text>
+    <text transform="translate(22 242) rotate(-90)" fill="#0D9488">UMSETZEN</text>
+    <text transform="translate(22 382) rotate(-90)" fill="#B45309">PRÜFEN</text>
+    <text transform="translate(22 512) rotate(-90)" fill="#BE185D">ABSCHLUSS</text>
+  </g>
+
+  <!-- Kopf -->
+  <rect x="44" y="8" width="600" height="34" rx="9" fill="#fff" stroke="#9a96ac" stroke-dasharray="4 3"/>
+  <text x="344" y="30" text-anchor="middle" font-size="13.5" font-weight="600" fill="#4A4757">Vor jeder Aufgabe wählt die KI selbst die passende Arbeitsanweisung</text>
+  <line x1="175" y1="42" x2="175" y2="74" stroke="#1B1A23" stroke-width="1.7" marker-end="url(#gF)"/>
+
+  <!-- PLANEN -->
+  <rect x="101" y="76" width="148" height="72" rx="11" fill="#2563EB" fill-opacity=".13" stroke="#2563EB" stroke-width="1.9"/>
+  <text x="175" y="101" text-anchor="middle" font-size="15.5" font-weight="700" fill="#1B1A23">Aufgabe verstehen</text>
+  <text x="175" y="119" text-anchor="middle" font-size="12.5" font-weight="500" fill="#4A4757">KI fragt nach,</text>
+  <text x="175" y="134" text-anchor="middle" font-size="12.5" font-weight="500" fill="#4A4757">Mensch gibt frei</text>
+
+  <line x1="249" y1="112" x2="294" y2="112" stroke="#1B1A23" stroke-width="1.7" marker-end="url(#gF)"/>
+  <rect x="296" y="76" width="148" height="72" rx="11" fill="#2563EB" fill-opacity=".13" stroke="#2563EB" stroke-width="1.9"/>
+  <text x="370" y="101" text-anchor="middle" font-size="15.5" font-weight="700" fill="#1B1A23">Plan erstellen</text>
+  <text x="370" y="119" text-anchor="middle" font-size="12.5" font-weight="500" fill="#4A4757">kleine Schritte,</text>
+  <text x="370" y="134" text-anchor="middle" font-size="12.5" font-weight="500" fill="#4A4757">Mensch gibt frei</text>
+
+  <!-- UMSETZEN -->
+  <line x1="370" y1="148" x2="370" y2="204" stroke="#1B1A23" stroke-width="1.7" marker-end="url(#gF)"/>
+  <rect x="296" y="206" width="148" height="72" rx="11" fill="#0D9488" fill-opacity=".13" stroke="#0D9488" stroke-width="1.9"/>
+  <text x="370" y="231" text-anchor="middle" font-size="15.5" font-weight="700" fill="#1B1A23">Vorbereiten</text>
+  <text x="370" y="249" text-anchor="middle" font-size="12.5" font-weight="500" fill="#4A4757">geschützter</text>
+  <text x="370" y="264" text-anchor="middle" font-size="12.5" font-weight="500" fill="#4A4757">Arbeitsbereich</text>
+
+  <line x1="444" y1="242" x2="484" y2="242" stroke="#1B1A23" stroke-width="1.7" marker-end="url(#gF)"/>
+  <rect x="486" y="206" width="148" height="72" rx="11" fill="#0D9488" fill-opacity=".13" stroke="#0D9488" stroke-width="1.9"/>
+  <text x="560" y="231" text-anchor="middle" font-size="15.5" font-weight="700" fill="#1B1A23">Umsetzen</text>
+  <text x="560" y="249" text-anchor="middle" font-size="12.5" font-weight="500" fill="#4A4757">Schritt für Schritt,</text>
+  <text x="560" y="264" text-anchor="middle" font-size="12.5" font-weight="500" fill="#4A4757">mit Selbstprüfung</text>
+
+  <!-- PRÜFEN -->
+  <rect x="486" y="346" width="148" height="72" rx="11" fill="#B45309" fill-opacity=".13" stroke="#B45309" stroke-width="1.9"/>
+  <text x="560" y="371" text-anchor="middle" font-size="15.5" font-weight="700" fill="#1B1A23">Fehler beheben</text>
+  <text x="560" y="389" text-anchor="middle" font-size="12.5" font-weight="500" fill="#4A4757">Ursache gezielt</text>
+  <text x="560" y="404" text-anchor="middle" font-size="12.5" font-weight="500" fill="#4A4757">suchen</text>
+
+  <line x1="634" y1="268" x2="688" y2="344" stroke="#1B1A23" stroke-width="1.7" marker-end="url(#gF)"/>
+  <rect x="656" y="346" width="148" height="72" rx="11" fill="#B45309" fill-opacity=".13" stroke="#B45309" stroke-width="1.9"/>
+  <text x="730" y="371" text-anchor="middle" font-size="15.5" font-weight="700" fill="#1B1A23">Nachweisen</text>
+  <text x="730" y="389" text-anchor="middle" font-size="12.5" font-weight="500" fill="#4A4757">funktioniert es</text>
+  <text x="730" y="404" text-anchor="middle" font-size="12.5" font-weight="500" fill="#4A4757">wirklich?</text>
+
+  <line x1="804" y1="382" x2="829" y2="382" stroke="#1B1A23" stroke-width="1.7" marker-end="url(#gF)"/>
+  <rect x="831" y="346" width="148" height="72" rx="11" fill="#B45309" fill-opacity=".13" stroke="#B45309" stroke-width="1.9"/>
+  <text x="905" y="371" text-anchor="middle" font-size="15.5" font-weight="700" fill="#1B1A23">Gegenprüfung</text>
+  <text x="905" y="389" text-anchor="middle" font-size="12.5" font-weight="500" fill="#4A4757">weitere KI prüft</text>
+  <text x="905" y="404" text-anchor="middle" font-size="12.5" font-weight="500" fill="#4A4757">das Ergebnis</text>
+
+  <!-- Wiederholschleifen -->
+  <line x1="545" y1="278" x2="545" y2="344" stroke="#5B46E0" stroke-width="1.9" stroke-dasharray="6 4" marker-end="url(#gV)"/>
+  <text x="537" y="316" text-anchor="end" font-size="13" font-weight="700" fill="#5B46E0">Fehler gefunden</text>
+  <line x1="575" y1="344" x2="575" y2="278" stroke="#5B46E0" stroke-width="1.9" stroke-dasharray="6 4" marker-end="url(#gV)"/>
+  <text x="583" y="316" text-anchor="start" font-size="13" font-weight="700" fill="#5B46E0">behoben</text>
+
+  <path d="M905,346 C905,168 740,160 636,236" fill="none" stroke="#5B46E0" stroke-width="1.9" stroke-dasharray="6 4" marker-end="url(#gV)"/>
+  <text x="800" y="236" text-anchor="middle" font-size="13" font-weight="700" fill="#5B46E0">Änderungs-</text>
+  <text x="800" y="251" text-anchor="middle" font-size="13" font-weight="700" fill="#5B46E0">wunsch</text>
+
+  <!-- ABSCHLUSS -->
+  <line x1="905" y1="418" x2="905" y2="474" stroke="#1B1A23" stroke-width="1.7" marker-end="url(#gF)"/>
+  <text x="917" y="452" font-size="12.5" font-weight="600" fill="#4A4757">bestanden</text>
+  <rect x="831" y="476" width="148" height="72" rx="11" fill="#BE185D" fill-opacity=".13" stroke="#BE185D" stroke-width="1.9"/>
+  <text x="905" y="501" text-anchor="middle" font-size="15.5" font-weight="700" fill="#1B1A23">Übergabe</text>
+  <text x="905" y="519" text-anchor="middle" font-size="12.5" font-weight="500" fill="#4A4757">Mensch entscheidet</text>
+  <text x="905" y="534" text-anchor="middle" font-size="12.5" font-weight="500" fill="#4A4757">über die Übernahme</text>
+</svg>
